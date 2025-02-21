@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding-top: 20px;
     background-color: #F7F7FE;
 }
 .site-headr {
@@ -316,5 +316,12 @@ body {
 /* media */
 
 @media screen and (max-width: 576px) {
-
+    .beginning {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    body {
+        padding: 5px;
+        padding-bottom: 50px;
+    }
 }
