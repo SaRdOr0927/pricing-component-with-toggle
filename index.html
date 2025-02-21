@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Tugma</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="site-headr">Our Pricing</h1>
+    <div class="toggle-container">
+        <div class="toggle-container__btn">
+            <p>Annually</p>
+            <div class="toggle" onclick="toggleSwitch()">
+                <div class="circle"></div>
+            </div>
+            <p>Monthly</p>
+        </div>
+        <div class="info beginning" id="infoText">
+            <div class="Basic">
+                <h3 class="Basic-name">Basic</h3>
+                <div class="Basic-flex">
+                    <div class="price-flex">
+                        <p class="price-logo">$</p>
+                        <h1 class="Basic-price">199.99</h1>
+                    </div>
+                    <div class="Basic-rate">
+                        <p class="rate-pp">500 GB Storage</p>
+                        <p class="rate-p">2 Users Allowed</p>
+                        <p class="rate-p">Send up to 3 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Basic-btn">LEARN MORE</a>
+            </div>
+            <div class="Professional">
+                <h3 class="Professional-name">Professional</h3>
+                <div class="Basic-flex">
+                    <div class="Professional-flex">
+                        <p class="Professional-logo">$</p>
+                        <h1 class="Professional-price">249.99</h1>
+                    </div>
+                    <div class="Professional-rate">
+                        <p class="Professional-pp">500 GB Storage</p>
+                        <p class="Professional-p">2 Users Allowed</p>
+                        <p class="Professional-p">Send up to 3 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Professional-btn">LEARN MORE</a>
+            </div>
+            <div class="Basic-mind">
+                <h3 class="Basic-name">Master</h3>
+                <div class="Basic-flex">
+                    <div class="price-flex">
+                        <p class="price-logo">$</p>
+                        <h1 class="Basic-price">399.99</h1>
+                    </div>
+                    <div class="Basic-rate">
+                        <p class="rate-pp">2 TB Storage</p>
+                        <p class="rate-p">10 Users Allowed</p>
+                        <p class="rate-p">Send up to 20 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Basic-btn">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="info beginning" id="infoText2" style="display: none;">
+            <div class="Basic">
+                <h3 class="Basic-name">Basic</h3>
+                <div class="Basic-flex">
+                    <div class="price-flex">
+                        <p class="price-logo">$</p>
+                        <h1 class="Basic-price">19.99</h1>
+                    </div>
+                    <div class="Basic-rate">
+                        <p class="rate-pp">500 GB Storage</p>
+                        <p class="rate-p">2 Users Allowed</p>
+                        <p class="rate-p">Send up to 3 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Basic-btn">LEARN MORE</a>
+            </div>
+            <div class="Professional">
+                <h3 class="Professional-name">Professional</h3>
+                <div class="Basic-flex">
+                    <div class="Professional-flex">
+                        <p class="Professional-logo">$</p>
+                        <h1 class="Professional-price">24.99</h1>
+                    </div>
+                    <div class="Professional-rate">
+                        <p class="Professional-pp">500 GB Storage</p>
+                        <p class="Professional-p">2 Users Allowed</p>
+                        <p class="Professional-p">Send up to 3 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Professional-btn">LEARN MORE</a>
+            </div>
+            <div class="Basic-mind">
+                <h3 class="Basic-name">Master</h3>
+                <div class="Basic-flex">
+                    <div class="price-flex">
+                        <p class="price-logo">$</p>
+                        <h1 class="Basic-price">39.99</h1>
+                    </div>
+                    <div class="Basic-rate">
+                        <p class="rate-pp">2 TB Storage</p>
+                        <p class="rate-p">10 Users Allowed</p>
+                        <p class="rate-p">Send up to 20 GB</p>
+                    </div>
+                </div>
+                <a href="#!" class="Basic-btn">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

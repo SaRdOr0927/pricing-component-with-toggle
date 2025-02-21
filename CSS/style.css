@@ -1,0 +1,320 @@
+
+
+a {
+    text-decoration: none;
+}
+.beginning {
+    display: flex;
+    align-items: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #F7F7FE;
+}
+.site-headr {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.toggle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toggle-container__btn {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.toggle-container__btn p {
+    color: #6E728E;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+}
+.toggle {
+    width: 56px;
+    height: 32px;
+    background-color: #696EDD;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    transition: .5s;
+}
+.toggle:hover {
+    background-color: #A2A7F0;
+} 
+.toggle .circle {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3px;
+    transition: all 0.3s ease;
+}
+.toggle.active .circle {
+    left: 25px;
+}
+.info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Basic */
+.Basic {
+    width: 350px;
+    height: 453px;
+    border-radius: 10px 0px 0px 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+.price-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+ 
+}
+.Basic-flex {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Basic-name {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin-bottom: 1px !important;
+}
+.Basic-price {
+    color: #4A4D60;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px; 
+    letter-spacing: -2.16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.price-logo {
+    color: #4A4D60;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    padding-bottom: 9px;
+}
+.Basic-rate{
+    width: 288px;
+} 
+.rate-pp {
+    margin-top: 5px !important;
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5) ; 
+}
+.rate-p {
+    color: #6E728E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5) ;
+    padding-bottom: 12px;
+    
+}
+.Basic-btn {
+    width: 288px;
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.393px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    transition: .5s;
+}
+.Basic-btn:hover {
+    border: 1px solid #6D72DE;
+    background: #fff;
+    color: #6D72DE;
+    
+}
+
+
+/* Basic */
+
+
+
+
+/* Professional */
+.Professional {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #A2A7F0 0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+}
+.Professional-name {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    margin-top: 50px;
+}
+.Professional-logo {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.2px;
+   margin-top: 28px;
+}
+.Professional-price {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px; /* 98.611% */
+    letter-spacing: -2.16px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.Professional-rate {
+    width: 288px;
+}
+.Professional-pp {
+    margin-top: 5px !important;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5) ; 
+}
+.Professional-p {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5) ;
+    padding-bottom: 12px;
+    
+}
+
+.Professional-btn {
+    width: 288px;
+    color: #6D72DE;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.393px;
+    border-radius: 6px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    transition: .5s;
+}
+
+.Professional-btn:hover {
+    border: 1px solid #fff;
+    background: linear-gradient(135deg, #A2A7F0 0.05%, #696EDD 100.05%);
+    color: #fff;
+}
+.Professional-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+
+/* Professional */
+
+
+.Basic-mind {
+    width: 350px;
+    height: 453px;
+    border-radius: 0px 10px 10px 0px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+/* media */
+
+@media screen and (max-width: 576px) {
+
+}
